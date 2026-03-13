@@ -8,7 +8,7 @@
     "cy:open": "cypress open",
     "cy:run": "cypress run",
     "test:e2e": "start-server-and-test start http://localhost:4200 cy:run",
-    "deploy": "ng build && npx angular-cli-ghpages --dir=dist/portfolio"
+    "deploy": "ng build && npx angular-cli-ghpages --dir=dist/portfolio/browser -n \"Beatriz\" -e \"2205252@aluno.univesp.br\""
   },
   "dependencies": {
     "@angular/animations": "^17.0.0",
